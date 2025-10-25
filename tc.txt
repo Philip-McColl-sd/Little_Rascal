@@ -1,0 +1,44 @@
+# Terminal Commands
+## Linux Generals
+### 5. ls (Lidt directories)
+- ls -l: prints files with timestamp
+### 5. touch (Create files)
+- touch file.txt: Creates a file named file.txt
+### 13. rm (Remove)
+- rm file: Remove a file.
+- rm -f file: Force the removal of file whether they are protected or not.
+- rm -i file: gives a promp on wether you actually want to remove the files or directory.
+- rm -r diretory: Removes a directory.
+- rmdir directory: Also removes a directory.
+### Reverse Search
+Ctl+r
+
+## Laptop Variables
+### Set screen brightness
+xrandr --output LVDS1 --brightness 0.9
+### Control volume
+alsamixer
+
+## Vim
+### To save changes in Vim and exit the editor
+- Enter Normal Mode: Press 'Esc' key
+- Type the Command: Type a colon ':'
+- Save and Quit: type 'wq' and press enter
+
+## i3
+### Set keyboard lenguage
+setxkbmap es
+
+
+## w3m
+- Search with w3m duckduckgo.com
+### Basic Commands and Shortcuts
+- g: Go to URL
+- b: Go back a page
+- f: go forward a page
+- r: Refresh current page
+- /: Search for text on the page
+### Opening and Closing Tabs
+- t: Open new tab
+- Tab: Switch to different tab
+- q: Close current tab
