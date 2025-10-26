@@ -1,4 +1,6 @@
-# Terminal Commands
+Terminal Commands
+-----------------
+# Linux
 ## Linux Generals
 ### 5. ls (Lidt directories)
 - ls -l: prints files with timestamp
@@ -12,12 +14,25 @@
 - rmdir directory: Also removes a directory.
 ### Reverse Search
 Ctl+r
-
 ## Laptop Variables
 ### Set screen brightness
 xrandr --output LVDS1 --brightness 0.9
 ### Control volume
 alsamixer
+
+#Aplications
+## Git
+### Basic push workflow
+- git remote -v: Print the remote origin URL
+- git add file.txt: Stages "file.txt"
+- git add .: Stages everything but the thing in the .gitignore file
+- git commit -m "Your commit message": 
+	· Captures the current state of the staged files
+	· Links this snapshot to the previous commit, forming a 	 chain (the project's history )
+	· Saves a reference (a pointer) to this commit in the 
+	  repository
+	· The -m flag allows you to include a message directly
+	  in the command
 
 ## Vim
 ### To save changes in Vim and exit the editor
@@ -28,7 +43,6 @@ alsamixer
 ## i3
 ### Set keyboard lenguage
 setxkbmap es
-
 
 ## w3m
 - Search with w3m duckduckgo.com
