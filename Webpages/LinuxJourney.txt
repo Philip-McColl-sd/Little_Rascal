@@ -1,0 +1,2 @@
+# Linux Journey (https://labex.io/lesson/touch-command)
+- https://labex.io/lesson/the-shell
